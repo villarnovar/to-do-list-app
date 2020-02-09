@@ -1,38 +1,228 @@
 body{
+    margin: 0px;
+    height: 100vh;
+    background-color:white;
+    font-family: "Asul", sans-serif;
     justify-content: center;
     text-align: center;
-    background-color: lightsteelblue;
-    margin: 30px;
-}
-ul li{
-    list-style-type: none;
-    text-transform: capitalize;
+    align-items: center;
 }
 
+#main-header{
+    background-color:purple;
+    height: 200px;
+    padding-top: 20px;
+}
+#header{
+    font-size: 40px;
+}
 
-.clear{
-    background-color: paleturquoise;
-    color:black;
-    padding: 1rem;
-    font-size: 1.2rem;
-    font-weight: bold;
-    border: 3px solid #222;
-    outline: none;
-    width: 30%;
-    cursor: pointer;
-    transition: background-color 0.25s;
-
+#text2{
+    border: 2px solid black;
+    width: 200px;
+    text-align: center;
+    height: 50px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: "Asul", sans-serif;
 }
 
 #main-button{
-    background-color: paleturquoise;
-    color:black;
-    padding: 1rem;
-    font-weight: bold;
-    border: none;
-    border: 3px solid #222;
-    outline: none;
-    width: 100px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    margin: 30px;
     cursor: pointer;
+}
+#main-button:hover{
+    background-color: lightseagreen;
+}
+h3{
+    font-size: 25px;
 
+}
+
+ul{
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+ul .li{
+    text-transform: capitalize;
+    background-color: purple;
+    font-size: 20px;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 16px 82px;
+
+}
+ul li .icon{
+    padding: 16px 82px;
+    color: white;
+}
+#clear{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 140px;
+    margin: 30px;
+    cursor: pointer;
+    border: 2px solid white;
+}
+#clear:hover{
+    background-color: rgb(118, 199, 195);
+}
+
+@media only screen and (max-width:800px){
+    body{
+        margin: 0px;
+        height: 100vh;
+        background-color:white;
+        font-family: "Asul", sans-serif;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+    #main-header{
+        background-color:purple;
+        height: 200px;
+        padding-top: 20px;
+    }
+    #header{
+        font-size: 50px;
+    }
+    
+    #text2{
+        border: 2px solid black;
+        width: 200px;
+        text-align: center;
+        height: 50px;
+        box-sizing: border-box;
+        font-size: 20px;
+        font-family: "Asul", sans-serif;
+    }
+    
+    #main-button{
+        background-color: black;
+        color: white;
+        height: 30px;
+        margin: 30px;
+        cursor: pointer;
+    }
+    #main-button:hover{
+        background-color: lightseagreen;
+    }
+    h3{
+        font-size: 25px;
+    
+    }
+    
+    ul{
+        list-style-type: none;
+        justify-content: space-between;
+    }
+    
+    ul .li{
+        text-transform: capitalize;
+        background-color: purple;
+        font-size: 20px;
+        height: 50px;
+        margin-bottom: 10px;
+        padding: 16px 82px;
+    
+    }
+    ul li .icon{
+        padding: 16px 82px;
+        color: white;
+    }
+    #clear{
+        background-color: black;
+        color: white;
+        height: 50px;
+        width: 140px;
+        margin: 30px;
+        cursor: pointer;
+        border: 2px solid white;
+    }
+    #clear:hover{
+        background-color: rgb(118, 199, 195);
+    }
+}
+
+@media only screen and (max-width:500px){
+    body{
+        margin: 0px;
+        height: 100vh;
+        background-color:white;
+        font-family: "Asul", sans-serif;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+    #main-header{
+        background-color:purple;
+        height: 200px;
+        padding-top: 20px;
+    }
+    #header{
+        font-size: 50px;
+    }
+    
+    #text2{
+        border: 2px solid black;
+        width: 200px;
+        text-align: center;
+        height: 50px;
+        box-sizing: border-box;
+        font-size: 20px;
+        font-family: "Asul", sans-serif;
+    }
+    
+    #main-button{
+        background-color: black;
+        color: white;
+        height: 30px;
+        margin: 30px;
+        cursor: pointer;
+    }
+    #main-button:hover{
+        background-color: lightseagreen;
+    }
+    h3{
+        font-size: 25px;
+    
+    }
+    
+    ul{
+        list-style-type: none;
+        justify-content: space-between;
+    }
+    
+    ul .li{
+        text-transform: capitalize;
+        background-color: purple;
+        font-size: 20px;
+        height: 50px;
+        margin-bottom: 10px;
+        padding: 16px 82px;
+    
+    }
+    ul li .icon{
+        padding: 16px 82px;
+        color: white;
+    }
+    #clear{
+        background-color: black;
+        color: white;
+        height: 50px;
+        width: 140px;
+        margin: 30px;
+        cursor: pointer;
+        border: 2px solid white;
+    }
+    #clear:hover{
+        background-color: rgb(118, 199, 195);
+    }
 }
