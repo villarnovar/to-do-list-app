@@ -27,6 +27,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
 submit.addEventListener("click", function(e){
     if(input.value == " "){
         alert("Type a to-do");
+        
     }
         e.preventDefault();
         let newLi = document.createElement("li");
